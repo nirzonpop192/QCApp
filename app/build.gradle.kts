@@ -62,4 +62,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version")
     // Lifecycle dependencies with Java 8 API
     implementation("androidx.lifecycle:lifecycle-common-java8:$lifecycle_version")
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+
+    val nav_version = "2.3.5"
+
+// Navigation Component
+    implementation ("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation ("androidx.navigation:navigation-ui-ktx:$nav_version")
+
 }
