@@ -1,4 +1,4 @@
-package com.rmg.qc.util.extention
+package com.rmg.qc.core.extention
 
 
 import android.util.Log
@@ -7,7 +7,13 @@ import com.rmg.qc.BuildConfig
 
 fun String.debugLog(tag:String="dim") {
     if (BuildConfig.DEBUG)
-        Log.e(tag,this)
+        Log.d(tag,this)
+
+}
+
+fun String.responseLog(tag:String="response") {
+    if (BuildConfig.DEBUG)
+        Log.d(tag,this)
 
 }
 
