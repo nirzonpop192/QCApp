@@ -73,4 +73,9 @@ dependencies {
     implementation ("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation ("androidx.navigation:navigation-ui-ktx:$nav_version")
 
+    //Hilt
+    implementation ("com.google.dagger:hilt-android:2.44")
+    implementation ("com.google.dagger:hilt-android-compiler:2.44")
+    implementation ("androidx.hilt:hilt-compiler:1.2.0")
+
 }
